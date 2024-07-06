@@ -41,6 +41,7 @@ sourceDir00, sourceDir0 = util_preprocessing.get_source_dirs(
 saveDir00 = util_preprocessing.get_save_dir(
     config.dir_training_data_preprocessed, DENSITY, SIZE, LESIONDENSITY, DOSE, DETECTOR
 )
+# MODEL CHOICE HAPPENS HERE
 nickname = util_preprocessing.get_model_nickname(
     DENSITY, SIZE, DETECTOR, LESIONDENSITY, DOSE
 )
